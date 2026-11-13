@@ -1,6 +1,8 @@
 # Project 2: Basic HTML Website
 Create simple HTML only website with multiple pages. 
 
+Link to [Roadmap Project](https://roadmap.sh/projects/basic-html-website).
+
 ## Goal
 Learn how to structure a website using HTML i.e. different sections of a website like header, footer, navigation, main content, sidebars etc.
 
