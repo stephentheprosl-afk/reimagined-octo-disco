@@ -1,12 +1,18 @@
-# Project 2: Basic HTML Website
+# Project 3: Personal Portfolio
 Create simple HTML only website with multiple pages. 
 
-Link to [https://roadmap.sh/projects/basic-html-website](https://roadmap.sh/projects/basic-html-website).
+Link to [Roadmap.sh Project](https://roadmap.sh/projects/portfolio-website).
 
 ## Goal
-Learn how to structure a website using HTML i.e. different sections of a website like header, footer, navigation, main content, sidebars etc.
+To learn how to style a website using CSS.
 
-1. Learn how to create multiple pages on a website.
-2. Structure a website semantically using HTML.
-3. Structure in a way that you can easily add styles later.
-4. Add SEO meta tags to the website.
+### Requirements:
+1. A fully styled, responsive website with the same structure as the previous project.
+2. Consistent use of a chosen color scheme and typography.
+3. Proper use of CSS techniques like Flexbox, media queries, and the box model.
+4. A responsive navigation bar and well-styled contact form.
+
+### Bonus Point:
+1. Use [Google Fonts](https://fonts.google.com/) to enhance the typography of your website.
+2. Look into [GitHub Pages](https://pages.github.com/) or [Cloudflare Pages](https://pages.cloudflare.com/) to host your website for free.
+3. Add support for dark mode using CSS variables.
