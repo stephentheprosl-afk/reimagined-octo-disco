@@ -1,3 +1,31 @@
 body {
-    
+    font-family: "Google Sans", sans-serif;
+    font-size: 16px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: light-dark(#E4E4E4, #333);
+}
+
+nav div:last-child {
+    display: flex;
+    flex-direction: row;
+    gap: 0.8rem;
+}
+
+nav a {
+    color: light-dark(#333, #E4E4E4);
+    font-size: 0.8rem;
+}
+
+nav a:hover {
+    color: light-dark(#551e44, #e4b5e4);
+}
+
+.hero-section {
+    height: 20vh;
+    padding: 5px 2px;
 }
