@@ -1,31 +1,110 @@
 body {
-    font-family: "Google Sans", sans-serif;
-    font-size: 16px;
+  font-family: "Google Sans", sans-serif;
+  font-size: 16px;
 }
 
 nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: light-dark(#E4E4E4, #333);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: light-dark(#E4E4E4, #333);
 }
 
 nav div:last-child {
-    display: flex;
-    flex-direction: row;
-    gap: 0.8rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0.8rem;
 }
 
 nav a {
-    color: light-dark(#333, #E4E4E4);
-    font-size: 0.8rem;
+  color: light-dark(#333, #E4E4E4);
+  font-size: 0.8rem;
 }
 
 nav a:hover {
-    color: light-dark(#551e44, #e4b5e4);
+  color: light-dark(#551e44, #e4b5e4);
+}
+
+main section:not(:last-child) {
+  border-bottom: 1px solid #000;
 }
 
 .hero-section {
-    height: 20vh;
-    padding: 5px 2px;
+  height: 20vh;
+  padding: 5px 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.midsection {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+}
+
+h2 {
+  font-family: "IBM Plex Mono";
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+aside {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+aside a {
+  color: light-dark(#333, #E4E4E4);
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 1rem;
+  transition-duration: 0.3s;
+}
+
+aside a:not(:last-child) {
+  border-bottom: 1px solid #000;
+}
+
+aside a:hover {
+  font-weight: 600;
+}
+
+.profile-link {
+  color: light-dark(#4c4ffa, #8082fc);
+  transition-duration: 0.3s;
+  text-decoration: underline;
+}
+
+.profile-link:hover {
+  color: light-dark(#6567f8, #9a9cf8);
+}
+
+/* For Tablet */
+@media only screen and (min-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  .hero-section {
+    height: 40vh;
+  }
+}
+
+/* For Mobile */
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 12px;
+  }
+
+  .hero-section {
+    height: 40vh;
+  }
 }
